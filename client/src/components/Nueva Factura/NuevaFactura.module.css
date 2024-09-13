@@ -1,0 +1,29 @@
+.header {
+    background-color: #d4edda; /* Verde claro */
+    color: #155724; /* Verde oscuro para el texto */
+    padding: 1rem;
+    margin: 0; /* Elimina márgenes adicionales */
+    text-align: center;
+    display: flex;
+    align-items: center; /* Centra verticalmente el icono y el texto */
+    justify-content: start; /* Centra horizontalmente al inicio */
+    border-radius: 0.25rem;
+    font-size: 1.25rem;
+    width: 100%; /* Asegura que el encabezado ocupe todo el ancho del contenedor */
+    box-sizing: border-box; /* Incluye el padding y el border en el ancho total del elemento */
+}
+
+.header .icon {
+    margin-right: 0.5rem; /* Espacio entre el icono y el texto */
+    font-size: 1.5rem; /* Ajusta el tamaño del icono según el tamaño del texto */
+    margin-bottom: 0.2rem; /* Espacio entre el icono y el texto */
+}
+
+.container {
+    border: 2px solid #d4edda; /* Borde del mismo color que el fondo del encabezado */
+    border-radius: 0.25rem; /* Opcional: redondea las esquinas del borde */
+    
+    margin-top: 10px; /* Elimina cualquier margen superior adicional si es necesario */
+    position: relative; /* Para garantizar que los elementos dentro se ajusten correctamente */
+}
+
